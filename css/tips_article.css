@@ -1,0 +1,20 @@
+body {
+    padding-top: 8rem;
+}
+
+.tips {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.article{
+    line-height: 190%;
+}
+
+*[id]:before { 
+    display: block; 
+    content: " "; 
+    margin-top: -75px; 
+    height: 75px; 
+    visibility: hidden; 
+}
